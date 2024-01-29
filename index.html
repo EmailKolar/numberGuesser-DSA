@@ -8,8 +8,22 @@
 </head>
 <body>
     <h1>Guess the number</h1>
+    <p>Welcome to guess the number game!</p>
+    <p>I'm thinking of a number between 1 and 100 <br>
+    Try to guess it!</p>
 
 
+    <ul id="guess-list">
+        <li>You guessed 54 - That was too high! Try again</li>
+        <li>You guessed 32 - That was too low! Try again</li>
+    </ul>
+
+    <form action="" id="guess-form">
+        <label for="guess">Your guess:
+            <input type="number" id="guess" name="guess">
+        </label>
+        <button id="guess-button">Guess</button>
+    </form>
 
     <script src="script.js"></script>
 </body>
